@@ -1,0 +1,24 @@
+|flash_adc_5bit
+vin_p[0] => Add0.IN16
+vin_p[1] => Add0.IN15
+vin_p[2] => Add0.IN14
+vin_p[3] => Add0.IN13
+vin_p[4] => Add0.IN12
+vin_p[5] => Add0.IN11
+vin_p[6] => Add0.IN10
+vin_p[7] => Add0.IN9
+vin_n[0] => Add0.IN8
+vin_n[1] => Add0.IN7
+vin_n[2] => Add0.IN6
+vin_n[3] => Add0.IN5
+vin_n[4] => Add0.IN4
+vin_n[5] => Add0.IN3
+vin_n[6] => Add0.IN2
+vin_n[7] => Add0.IN1
+gray_out[0] <= gray_out.DB_MAX_OUTPUT_PORT_TYPE
+gray_out[1] <= gray_out.DB_MAX_OUTPUT_PORT_TYPE
+gray_out[2] <= gray_out.DB_MAX_OUTPUT_PORT_TYPE
+gray_out[3] <= gray_out.DB_MAX_OUTPUT_PORT_TYPE
+gray_out[4] <= binary_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
